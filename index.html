@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Hello World</title>
+  <style>
+    :root { --bg: #f7f7f8; --fg: #1d1d1f; }
+    @media (prefers-color-scheme: dark) {
+      :root { --bg: #161618; --fg: #f2f2f3; }
+    }
+    html, body { height: 100%; margin: 0; }
+    body {
+      display: grid;
+      place-items: center;
+      background: var(--bg);
+      color: var(--fg);
+      font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
+    }
+    h1 { font-size: clamp(2rem, 8vw, 4rem); margin: 0; padding: 0 16px; text-align: center; }
+  </style>
+</head>
+<body>
+  <h1>Hello, World!</h1>
+</body>
+</html>

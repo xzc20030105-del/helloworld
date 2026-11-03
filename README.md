@@ -4,6 +4,8 @@
 
 ## 运行
 
+### Python 版
+
 ```bash
 python3 hello.py
 ```
@@ -13,3 +15,7 @@ python3 hello.py
 ```
 Hello, World!
 ```
+
+### 网页版
+
+直接用浏览器打开 `index.html`，页面中央会显示 “Hello, World!”。
